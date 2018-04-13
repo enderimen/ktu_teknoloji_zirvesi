@@ -2,3 +2,86 @@
 	Author: Ender İMEN
 	Date : 13.04.2018;
 */
+
+body{
+	color: #fff;
+}
+
+.material-icons {
+  font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;  /* Preferred icon size */
+  display: inline-block;
+  line-height: 1;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+
+  /* Support for all WebKit browsers. */
+  -webkit-font-smoothing: antialiased;
+  /* Support for Safari and Chrome. */
+  text-rendering: optimizeLegibility;
+
+  /* Support for Firefox. */
+  -moz-osx-font-smoothing: grayscale;
+
+  /* Support for IE. */
+  font-feature-settings: 'liga';
+}
+
+.nav{
+	
+}
+
+.nav-tabs{
+	display: flex;
+	justify-content: center;
+}
+
+.jumbotron{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	background-color: #ef5350;
+}
+
+#konusmacilar{
+	height: 100vh;
+}
+
+#konusmacilar img {
+	border: 2px solid #cfd8dc;
+	border-radius: 5px;
+	margin-bottom: 10px;
+	cursor: pointer;
+	transition: .3s ease;
+	-webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+}
+
+#konusmacilar img:hover {
+	transform: scale(1.1);
+	border: 3px solid #81d4fa;
+	-webkit-filter: grayscale(0%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(0%);
+}
+
+.border-none{
+	border: none !important;
+}
+
+.no-padding {
+	padding: 0;
+}
+
+.flexed{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	flex-wrap: wrap;
+}
