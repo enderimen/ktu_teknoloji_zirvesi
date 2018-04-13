@@ -14,7 +14,8 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
   
   <!--Font-->
-  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
+
   <!-- Custom styles for this template -->
   <link href="css/main.css" rel="stylesheet">
 </head>
@@ -30,19 +31,19 @@
         <div class="collapse navbar-collapse text-center" id="navbarCollapse">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item active">
-              <a class="nav-link" href="#">Anasayfa <span class="sr-only">(current)</span></a>
+              <a class="nav-link" href="index.html">Anasayfa <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">Program Akışı</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Konuşmacılar</a>
+              <a class="nav-link" href="#konusmacilar">Konuşmacılar</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">Zirveden Kareler</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Ulaşım</a>
+              <a class="nav-link" href="#ulasim">Ulaşım</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">Sponsorlar</a>
@@ -65,119 +66,277 @@
     </div>
   </header>
 
-   <section class="jumbotron text-center">
+  <section class="jumbotron text-center">
     <div class="container">
       <div class="jumbotron">
         <h3 class="display-6">Karadeniz Teknik Üniversitesi <br> Of Teknoloji Fakültesi</h3><br>
-        <h3 class="display-6"><b><i class="material-icons">alarm</i> 24-25-26-27 Nisan’da</b></h3>
+        <h3 class="display-6"><b> <span><i class="far fa-calendar"></i></span> 24-25-26-27 Nisan’da</b></h3>
         <hr class="my-4">
         <p class="lead">Of Teknoloji Fakültesi bünyesinde gerçekleştirilecek olan teknoloji zirvesi, toplam da 4 gün sürecektir. <br> Bu zirvede birbirinden değerli birçok katılımcımız sizlerle olacak.</p>
-          <p class="lead">
-            <a class="btn btn-secondary btn-lg" href="#" role="button">Daha Fazla</a>
-          </p>
-        </div>
+        <p class="lead">
+          <a class="btn btn-secondary btn-lg" href="#" role="button">Daha Fazla</a>
+        </p>
       </div>
+    </div>
   </section>
 
-    
-    <main role="main">
-      <div class="container">
-        <h3 class="text-center text-dark">Konuşmacılar</h3><br>
-        <ul class="nav nav-tabs" id="myTab" role="tablist">
-          <li class="nav-item">
-            <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">İnşaat Günü</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">Enerji Günleri</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" id="contact-tab" data-toggle="tab" href="#contact" role="tab" aria-controls="contact" aria-selected="false">Yazılım Günü</a>
-          </li>
-        </ul>
-        <div class="tab-content" id="myTabContent">
-          <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
-            
-          </div>
-          <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
-            
-            <div class="card border-dark mb-3" style="max-width: 18rem;">
-              <div class="card-header">Header</div>
-              <div class="card-body text-dark">
-                <h5 class="card-title">Dark card title</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+
+  
+    <div class="container" id="konusmacilar">
+      <h3 class="text-center text-dark">Konuşmacılar</h3><br>
+      <ul class="nav nav-tabs" id="myTab" role="tablist">
+        <li class="nav-item">
+          <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">İnşaat Günü</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">Enerji Günleri</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" id="contact-tab" data-toggle="tab" href="#contact" role="tab" aria-controls="contact" aria-selected="false">Yazılım Günü</a>
+        </li>
+      </ul>
+
+      <div class="tab-content" id="myTabContent">
+        <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+          <section id="" class="konusmacilar">
+            <div class="album py-5  flexed">
+              <div class="card border-none mb-3" style="max-width: 13rem;max-height: 18rem">
+                <div class="card-body text-dark no-padding">
+                  <img src="images/beste_ardic_arslan.jpg" height="200" width="205" class="center" alt="">
+                  <p class="card-text text-center"><b>Beste Ardınç Arslan</b></p>
+                  <p class="card-text text-center">
+                    <span><i class="fab fa-facebook-f"></i></span>
+                    <span><i class="fab fa-twitter"></i></span>
+                  </p>
+                </div>
+              </div>
+
+              
+
+              <div class="card border-none mb-3" style="max-width: 13rem;max-height: 18rem">
+                <div class="card-body text-dark no-padding">
+                  <img src="images/ahmet-sevki-omag.jpg" height="200" width="205" class="center" alt="">
+                  <p class="card-text text-center"><b>Ahmet Şevki Omağ</b></p>
+                  <p class="card-text text-center">
+                    <span><i class="fab fa-facebook-f"></i></span>
+                    <span><i class="fab fa-twitter"></i></span>
+                  </p>
+                </div>
+              </div>
+
+              <div class="card border-none mb-3" style="max-width: 13rem;max-height: 18rem">
+                <div class="card-body text-dark no-padding">
+                  <img src="images/mert_cevik.jpg" height="200" width="205" class="center" alt="">
+                  <p class="card-text text-center"><b>Mert Çevik</b></p>
+                  <p class="card-text text-center">
+                    <span><i class="fab fa-facebook-f"></i></span>
+                    <span><i class="fab fa-twitter"></i></span>
+                  </p>
+                </div>
+              </div>
+
+              <div class="card border-none mb-3" style="max-width: 13rem;max-height: 18rem">
+                <div class="card-body text-dark no-padding">
+                  <img src="images/rahime_ustasuleyman.png" height="200" width="205" class="center" alt="">
+                  <p class="card-text text-center"><b>Rahime Ustasüleyman</b></p>
+                  <p class="card-text text-center">
+                    <span><i class="fab fa-facebook-f"></i></span>
+                    <span><i class="fab fa-twitter"></i></span>
+                  </p>
+                </div>
               </div>
             </div>
-          </div>
-          <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">
-            
-          </div>
+          </section>
         </div>
+        <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
 
-        <section id="konusmacilar" class="col col-md-12">
-          <div class="album py-5  flexed">
+          <section id="" class="konusmacilar">
+            <div class="album py-5  flexed">
               <div class="card border-none mb-3" style="max-width: 13rem;max-height: 18rem">
                 <div class="card-body text-dark no-padding">
-                  <img src="images/adem_ilter.jpg" height="200" width="205" class="center" alt="">
-                  <p class="card-text text-center">Adem İlter</p>
+                  <img src="images/ahmet_cem_yalcin.jpg" height="200" width="205" class="center" alt="">
+                  <p class="card-text text-center"><b>Ahmet Cem Yalçın</b></p>
                   <p class="card-text text-center">
-                    <span></span>
-                    <span>Twit</span>
+                    <span><i class="fab fa-facebook-f"></i></span>
+                    <span><i class="fab fa-twitter"></i></span>
                   </p>
                 </div>
               </div>
 
               <div class="card border-none mb-3" style="max-width: 13rem;max-height: 18rem">
                 <div class="card-body text-dark no-padding">
-                  <img src="images/adem_ilter.jpg" height="200" width="205" class="center" alt="">
-                  <p class="card-text text-center">Adem İlter</p>
+                  <img src="images/yuksel_malkoc.jpg" height="200" width="205" class="center" alt="">
+                  <p class="card-text text-center"><b>Yüksel Malkoç</b></p>
                   <p class="card-text text-center">
-                    <span>Face</span>
-                    <span>Twit</span>
+                    <span><i class="fab fa-facebook-f"></i></span>
+                    <span><i class="fab fa-twitter"></i></span>
                   </p>
                 </div>
               </div>
 
               <div class="card border-none mb-3" style="max-width: 13rem;max-height: 18rem">
                 <div class="card-body text-dark no-padding">
-                  <img src="images/adem_ilter.jpg" height="200" width="205" class="center" alt="">
-                  <p class="card-text text-center">Adem İlter</p>
+                  <img src="images/vural_cantug_akkas.jpg" height="200" width="205" class="center" alt="">
+                  <p class="card-text text-center"><b>Vural Cantuğ Akkas</b></p>
                   <p class="card-text text-center">
-                    <span>Face</span>
-                    <span>Twit</span>
+                    <span><i class="fab fa-facebook-f"></i></span>
+                    <span><i class="fab fa-twitter"></i></span>
                   </p>
                 </div>
               </div>
 
               <div class="card border-none mb-3" style="max-width: 13rem;max-height: 18rem">
                 <div class="card-body text-dark no-padding">
-                  <img src="images/adem_ilter.jpg" height="200" width="205" class="center" alt="">
-                  <p class="card-text text-center">Adem İlter</p>
+                  <img src="images/faruk_durukan.jpg" height="200" width="205" class="center" alt="">
+                  <p class="card-text text-center"><b>Faruk Durukan</b></p>
                   <p class="card-text text-center">
-                    <span>Face</span>
-                    <span>Twit</span>
+                    <span><i class="fab fa-facebook-f"></i></span>
+                    <span><i class="fab fa-twitter"></i></span>
                   </p>
                 </div>
               </div>
 
               <div class="card border-none mb-3" style="max-width: 13rem;max-height: 18rem">
                 <div class="card-body text-dark no-padding">
-                  <img src="images/adem_ilter.jpg" height="200" width="205" class="center" alt="">
-                  <p class="card-text text-center">Adem İlter</p>
+                  <img src="images/katya_kaya.jpg" height="200" width="205" class="center" alt="">
+                  <p class="card-text text-center"><b>Katya Kaya</b></p>
                   <p class="card-text text-center">
-                    <span>Face</span>
-                    <span>Twit</span>
+                    <span><i class="fab fa-facebook-f"></i></span>
+                    <span><i class="fab fa-twitter"></i></span>
                   </p>
                 </div>
               </div>
-          </div>
+
+              <div class="card border-none mb-3" style="max-width: 13rem;max-height: 18rem">
+                <div class="card-body text-dark no-padding">
+                  <img src="images/tanay_sidki_uyar.jpg" height="200" width="205" class="center" alt="">
+                  <p class="card-text text-center"><b>Tanay Sıdkı Uyar</b></p>
+                  <p class="card-text text-center">
+                    <span><i class="fab fa-facebook-f"></i></span>
+                    <span><i class="fab fa-twitter"></i></span>
+                  </p>
+                </div>
+              </div>    
+
+              <div class="card border-none mb-3" style="max-width: 13rem;max-height: 18rem">
+                <div class="card-body text-dark no-padding">
+                  <img src="images/nedim_ugur_bakoglu.jpg" height="200" width="205" class="center" alt="">
+                  <p class="card-text text-center"><b>Nedim Uğur Bakoğlu</b></p>
+                  <p class="card-text text-center">
+                    <span><i class="fab fa-facebook-f"></i></span>
+                    <span><i class="fab fa-twitter"></i></span>
+                  </p>
+                </div>
+              </div>        
+
+              <div class="card border-none mb-3" style="max-width: 13rem;max-height: 18rem">
+                <div class="card-body text-dark no-padding">
+                  <img src="images/onur_gunes.jpg" height="200" width="205" class="center" alt="">
+                  <p class="card-text text-center"><b>Onur Güneş</b></p>
+                  <p class="card-text text-center">
+                    <span><i class="fab fa-facebook-f"></i></span>
+                    <span><i class="fab fa-twitter"></i></span>
+                  </p>
+                </div>
+              </div>        
+
+              <div class="card border-none mb-3" style="max-width: 13rem;max-height: 18rem">
+                <div class="card-body text-dark no-padding">
+                  <img src="images/haluk_sari.jpg" height="200" width="205" class="center" alt="">
+                  <p class="card-text text-center"><b>Haluk Sarı</b></p>
+                  <p class="card-text text-center">
+                    <span><i class="fab fa-facebook-f"></i></span>
+                    <span><i class="fab fa-twitter"></i></span>
+                  </p>
+                </div>
+              </div>
+
+              <div class="card border-none mb-3" style="max-width: 13rem;max-height: 18rem">
+                <div class="card-body text-dark no-padding">
+                  <img src="images/hasan_koktas.jpg" height="200" width="205" class="center" alt="">
+                  <p class="card-text text-center"><b>Hasan Köktaş</b></p>
+                  <p class="card-text text-center">
+                    <span><i class="fab fa-facebook-f"></i></span>
+                    <span><i class="fab fa-twitter"></i></span>
+                  </p>
+                </div>
+              </div>                
+            </div>
+          </section>
+        </div>
+        <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">
+          <section id="" class="konusmacilar">
+            <div class="album py-5  flexed">
+              <div class="card border-none mb-3" style="max-width: 13rem;max-height: 18rem">
+                <div class="card-body text-dark no-padding">
+                  <img src="images/unal_surmeli.jpg" height="200" width="205" class="center" alt="">
+                  <p class="card-text text-center"><b>Ünal Sürmeli</b></p>
+                  <p class="card-text text-center">
+                    <span><i class="fab fa-facebook-f"></i></span>
+                    <span><i class="fab fa-twitter"></i></span>
+                  </p>
+                </div>
+              </div>
+
+              <div class="card border-none mb-3" style="max-width: 13rem;max-height: 18rem">
+                <div class="card-body text-dark no-padding">
+                  <img src="images/eyup_celik.jpg" height="200" width="205" class="center" alt="">
+                  <p class="card-text text-center"><b>Eyüp Çelik</b></p>
+                  <p class="card-text text-center">
+                    <span><i class="fab fa-facebook-f"></i></span>
+                    <span><i class="fab fa-twitter"></i></span>
+                  </p>
+                </div>
+              </div>
+
+              <div class="card border-none mb-3" style="max-width: 13rem;max-height: 18rem">
+                <div class="card-body text-dark no-padding">
+                  <img src="images/ridvan_yildiz.jpg" height="200" width="205" class="center" alt="">
+                  <p class="card-text text-center"><b>Rıdvan Yıldız</b></p>
+                  <p class="card-text text-center">
+                    <span><i class="fab fa-facebook-f"></i></span>
+                    <span><i class="fab fa-twitter"></i></span>
+                  </p>
+                </div>
+              </div>
+
+              <div class="card border-none mb-3" style="max-width: 13rem;max-height: 18rem">
+                <div class="card-body text-dark no-padding">
+                  <img src="images/burak_bicen.jpg" height="200" width="205" class="center" alt="">
+                  <p class="card-text text-center"><b>Burak Bicen</b></p>
+                  <p class="card-text text-center">
+                    <span><i class="fab fa-facebook-f"></i></span>
+                    <span><i class="fab fa-twitter"></i></span>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </section>
+        </div>
+      </div>
+    </div>
+
+      <!--<section id="ulasim" class="map">
+          <h3 class="text-dark text-center">Ulaşım</h3><br>
+          <iframe src="https://www.google.com/maps/embed?pb=!1m23!1m12!1m3!1d48229.94641284955!2d40.241169225769056!3d40.9295212503905!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m8!3e6!4m5!1s0x4065d6a2c5974fb3%3A0x6b368a7e226a61e0!2s%C4%B0rfanl%C4%B1+Mahallesi%2C+ktu+Of+Teknoloji+Fak%C3%BCltesi%2C+Of%2FTrabzon%2C+T%C3%BCrkiye!3m2!1d40.9294617!2d40.2761887!4m0!5e0!3m2!1str!2sro!4v1523648600380" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
         </section>
 
-      </div>
-    </main>
 
+      <footer class="footer bg-dark">
+        <span><p class="text-center">Bu web sitesi Of Teknoloji Fakültesi için Ender İMEN tarafından tasarlanıp geliştirilmiştir.</p></span>
+      </footer>-->
 
     <!-- Bootstrap core JavaScript
       ================================================== -->
+      <script>
+        /*function myMap() {
+          var mapCanvas = document.getElementById("map");
+          var mapOptions = {
+            center: new google.maps.LatLng(40.9297, 40.2762), zoom: 10
+          };
+          var map = new google.maps.Map(mapCanvas, mapOptions);
+        }*/
+      </script>
       <!-- Placed at the end of the document so the pages load faster -->
       <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 
