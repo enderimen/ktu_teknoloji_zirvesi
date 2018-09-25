@@ -1,0 +1,8 @@
+
+
+# php -- BEGIN cPanel-generated handler, do not edit
+# “ea-php56” paketini varsayılan “PHP” programlama dili olarak ayarlayın.
+<IfModule mime_module>
+  AddType application/x-httpd-ea-php56 .php .php5 .phtml
+</IfModule>
+# php -- END cPanel-generated handler, do not edit
